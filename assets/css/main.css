@@ -1,0 +1,70 @@
+/*================================
+            GENERAL
+================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*================================
+            SECTION
+================================*/
+body section {
+    height: 20vh;
+    width: 22vw;
+    margin: 20vh auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+body section form {
+    background-color: rgb(240, 240, 240);
+    padding-top: 1vh;
+}
+
+/*================================
+            PARAGRAPH
+================================*/
+
+body section p {
+    background-color: #69D3A9;
+    padding: 2vh 0 2vh 0;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/*================================
+            FORM
+================================*/
+body section form input {
+    margin: 1vh 0 1vh 0;
+}
+
+input[type="text"] {
+    padding: 1vh 10vw 1vh 1vw;
+}
+
+input[type="mail"] {
+    padding: 1vh 10vw 1vh 1vw;
+}
+
+textarea[placeholder="Type your Message"] {
+    padding: 1vh 10vw 1vh 1vw;
+    margin: 1vh 0 2vh 0;
+    font-family: sans-serif;
+}
+
+button[type="submit"] {
+    padding: 1vh 7.7vw 1vh 7.7vw;
+    background-color: #69D3A9;
+    border: transparent;
+    margin-bottom: 3vh;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #58b08d;
+}
